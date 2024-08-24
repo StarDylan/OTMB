@@ -17,4 +17,3 @@ We will use Architecture Decision Records, as [described by Michael Nygard](http
 ## Consequences
 
 See Michael Nygard's article, linked above. For a way to manage these we can use [this](https://github.com/joshrotenberg/adrs) Rust implementation
-
