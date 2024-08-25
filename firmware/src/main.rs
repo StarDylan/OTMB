@@ -1,47 +1,17 @@
 #![no_std]
 #![no_main]
 
-use cortex_m::Peripherals;
-// use defmt::*;
-// use embassy_executor::Spawner;
 use embassy_stm32::{bind_interrupts, gpio::{Level, Output, Speed}, peripherals, rng::{self, Rng}, time::Hertz, Config};
 use rand_core::RngCore;
-// use embassy_time::Timer;
-// use {defmt_rtt as _, panic_probe as _};
-
-
-// #[embassy_executor::main]
-// async fn main(_spawner: Spawner) {
-//     let config = Config::default();
-
-//     let p = embassy_stm32::init(Default::default());
-//     info!("Hello World!");
-
-//     let mut rng = Rng::new(p.RNG, Irqs);
-
-//     let mut led = Output::new(p.PB7, Level::High, Speed::Low);
-
-//     let data = rng.next_u64() % 10;
-    
-//     loop {
-//         info!("high");
-//         led.set_high();
-//         Timer::after_secs(data).await;
-
-//         info!("low");
-//         led.set_low();
-//         Timer::after_millis(300).await;
-//     }
-// }
+use defmt::*;
+use embassy_executor::Spawner;
+use embassy_time::Timer;
+use {defmt_rtt as _, panic_probe as _};
 
 bind_interrupts!(struct Irqs {
     HASH_RNG => rng::InterruptHandler<peripherals::RNG>;
 });
 
-use defmt::*;
-use embassy_executor::Spawner;
-use embassy_time::Timer;
-use {defmt_rtt as _, panic_probe as _};
 
 #[embassy_executor::main]
 async fn main(_spawner: Spawner) {
