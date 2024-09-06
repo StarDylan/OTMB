@@ -1769,6 +1769,301 @@
 				)
 			)
 		)
+		(symbol "Transistor_FET:IRLZ44N"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "IRLZ44N"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel HEXFET MOSFET Logic-Level"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IRLZ44N_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "IRLZ44N_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "otmb_library:STM32U073CCT6"
 			(pin_names
 				(offset 0.762)
@@ -3341,13 +3636,23 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 148.59) (xy 93.98 138.43)
+			(xy 93.98 148.59) (xy 93.98 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "05955b7b-50ca-4046-a3cf-baa5cc3d4f06")
+	)
+	(wire
+		(pts
+			(xy 147.32 173.99) (xy 147.32 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05a8dc51-b652-4510-9899-1df85a46259f")
 	)
 	(wire
 		(pts
@@ -3381,6 +3686,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 153.67) (xy 142.24 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "129defc2-a98c-451f-926e-937a33edb78e")
+	)
+	(wire
+		(pts
 			(xy 118.11 106.68) (xy 129.54 106.68)
 		)
 		(stroke
@@ -3411,6 +3726,26 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 163.83) (xy 144.78 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "218473ff-4485-4df6-9f45-cf659b3989c3")
+	)
+	(wire
+		(pts
+			(xy 106.68 189.23) (xy 113.03 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "232f3528-f748-4767-958b-d206f8e58044")
+	)
+	(wire
+		(pts
 			(xy 68.58 78.74) (xy 71.12 78.74)
 		)
 		(stroke
@@ -3418,6 +3753,26 @@
 			(type default)
 		)
 		(uuid "31567d4c-ca5b-4397-8cfa-666e0e8d53aa")
+	)
+	(wire
+		(pts
+			(xy 171.45 59.69) (xy 171.45 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31fb83c0-e5c2-474e-993e-99a13640ed43")
+	)
+	(wire
+		(pts
+			(xy 124.46 185.42) (xy 149.86 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "361e17eb-a3b8-46c0-8a72-f83e30579d89")
 	)
 	(wire
 		(pts
@@ -3461,6 +3816,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 185.42) (xy 149.86 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e96a806-0b93-48e6-a011-7449a23940a0")
+	)
+	(wire
+		(pts
 			(xy 180.34 88.9) (xy 200.66 88.9)
 		)
 		(stroke
@@ -3471,6 +3836,36 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 163.83) (xy 144.78 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ffc34a6-15e6-428e-ba59-d55fcc712646")
+	)
+	(wire
+		(pts
+			(xy 149.86 59.69) (xy 151.13 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "643925e9-e17f-4b4b-be03-58dbb2080bf7")
+	)
+	(wire
+		(pts
+			(xy 160.02 59.69) (xy 158.75 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65dd7cd4-b0f2-401b-acc8-16fe8ddb98f4")
+	)
+	(wire
+		(pts
 			(xy 123.19 100.33) (xy 125.73 100.33)
 		)
 		(stroke
@@ -3478,6 +3873,26 @@
 			(type default)
 		)
 		(uuid "673e123e-8f3b-4018-9122-d52a84bcabd1")
+	)
+	(wire
+		(pts
+			(xy 171.45 59.69) (xy 170.18 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6746916c-5b8e-4a3a-b565-47341dccfd7a")
+	)
+	(wire
+		(pts
+			(xy 179.07 40.64) (xy 179.07 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70581599-ac8a-42e5-be20-a8ba973a222f")
 	)
 	(wire
 		(pts
@@ -3511,6 +3926,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 137.16) (xy 114.3 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fa90e6d-e9d9-439f-a8a9-24f12ffaf241")
+	)
+	(wire
+		(pts
 			(xy 68.58 58.42) (xy 73.66 58.42)
 		)
 		(stroke
@@ -3531,6 +3956,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 194.31) (xy 152.4 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d55aae2-d853-4c62-8322-e46ef695639c")
+	)
+	(wire
+		(pts
 			(xy 93.98 187.96) (xy 93.98 180.34)
 		)
 		(stroke
@@ -3538,6 +3973,16 @@
 			(type default)
 		)
 		(uuid "8f3a8434-db26-42c0-889b-9531a727b5fa")
+	)
+	(wire
+		(pts
+			(xy 110.49 180.34) (xy 116.84 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fefbbe4-14da-4249-ad35-0f76f4510905")
 	)
 	(wire
 		(pts
@@ -3551,13 +3996,23 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 138.43) (xy 102.87 138.43)
+			(xy 93.98 137.16) (xy 102.87 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "96616a47-a6a9-4f54-9847-cbf679f6f388")
+	)
+	(wire
+		(pts
+			(xy 110.49 158.75) (xy 115.57 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9795fe54-2800-46bd-a71d-75b59b1470ea")
 	)
 	(wire
 		(pts
@@ -3591,6 +4046,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 148.59) (xy 118.11 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a069cb2b-794c-40f9-864c-8d9b3633aa0f")
+	)
+	(wire
+		(pts
 			(xy 148.59 54.61) (xy 142.24 54.61)
 		)
 		(stroke
@@ -3621,6 +4086,26 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 173.99) (xy 147.32 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad83e15e-7717-487a-99ff-f8a1e26fe352")
+	)
+	(wire
+		(pts
+			(xy 120.65 194.31) (xy 152.4 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af901152-b2f3-47b5-972d-b2621fecc0ae")
+	)
+	(wire
+		(pts
 			(xy 68.58 76.2) (xy 71.12 76.2)
 		)
 		(stroke
@@ -3638,6 +4123,16 @@
 			(type default)
 		)
 		(uuid "b5eb9855-f4c9-4c17-a701-d45741d3533a")
+	)
+	(wire
+		(pts
+			(xy 149.86 63.5) (xy 149.86 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7c508be-7ecf-455d-8e13-b35f0e7b3502")
 	)
 	(wire
 		(pts
@@ -3741,6 +4236,36 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 142.24) (xy 139.7 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e674578f-f0d5-4446-88ec-d1ea17f25306")
+	)
+	(wire
+		(pts
+			(xy 139.7 142.24) (xy 139.7 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e93669e8-15fb-47a4-8f35-5d6cdbd4bc46")
+	)
+	(wire
+		(pts
+			(xy 125.73 153.67) (xy 142.24 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebf92cc3-c201-4b28-a5a2-d2119fd3279a")
+	)
+	(wire
+		(pts
 			(xy 71.12 71.12) (xy 71.12 73.66)
 		)
 		(stroke
@@ -3778,6 +4303,16 @@
 			(type default)
 		)
 		(uuid "fca5ba91-9f43-4590-b715-6a9df54d682e")
+	)
+	(wire
+		(pts
+			(xy 186.69 40.64) (xy 179.07 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feaeddaa-458b-401f-858c-ed1fee9b403c")
 	)
 	(label "USB D+"
 		(at 186.69 93.98 0)
@@ -3822,6 +4357,148 @@
 			(justify left bottom)
 		)
 		(uuid "b3ff7b3f-1b3d-490d-8d65-b01662ba346d")
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 179.07 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12acb621-d944-42dc-849b-9c807ead36cf")
+		(property "Reference" "#PWR016"
+			(at 179.07 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 179.07 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 179.07 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fc5bbbe-0bce-40f0-b2ec-98f8ad2ccf31")
+		)
+		(instances
+			(project ""
+				(path "/f96461b7-7891-4a70-9cc7-4879d3904968"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLZ44N")
+		(at 119.38 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b7fcac1-daab-4c95-b842-0eb7e6f0a63e")
+		(property "Reference" "Q1"
+			(at 125.73 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLZ44N"
+			(at 125.73 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 124.46 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+			(at 124.46 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+			(at 119.38 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "586c4d58-0acc-46d1-bf67-4fb90b222032")
+		)
+		(pin "1"
+			(uuid "1b908980-1270-4cca-a0d8-8fb09ad609da")
+		)
+		(pin "3"
+			(uuid "ba5c8e1c-7355-46f3-a396-c7da0126db5a")
+		)
+		(instances
+			(project ""
+				(path "/f96461b7-7891-4a70-9cc7-4879d3904968"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Regulator_Linear:TLV70212_SOT23-5")
@@ -4104,6 +4781,147 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:IRLZ44N")
+		(at 120.65 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4737d47a-c0f3-4dd6-98c1-7fb90c4d093b")
+		(property "Reference" "Q3"
+			(at 127 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLZ44N"
+			(at 127 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 125.73 160.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+			(at 125.73 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+			(at 120.65 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e7f309ee-9d9e-4abd-bba1-f542e9d8e886")
+		)
+		(pin "1"
+			(uuid "84d2c736-bf06-4108-9223-7a19409dfa85")
+		)
+		(pin "3"
+			(uuid "76600df1-0bfc-4764-8631-0ef87699b602")
+		)
+		(instances
+			(project "otmb_board"
+				(path "/f96461b7-7891-4a70-9cc7-4879d3904968"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 171.45 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5942a879-a163-4b3e-bb4b-e80318dcb386")
+		(property "Reference" "#PWR017"
+			(at 171.45 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 171.704 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 171.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c4f4f54-ca30-4dbe-b932-2742e6a14ce6")
+		)
+		(instances
+			(project ""
+				(path "/f96461b7-7891-4a70-9cc7-4879d3904968"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 88.9 67.31 0)
 		(unit 1)
@@ -4235,25 +5053,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 135.89 57.15 0)
+		(lib_id "Device:LED")
+		(at 102.87 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "702c0092-9604-4a0a-accd-10af1a06199e")
-		(property "Reference" "SW1"
-			(at 135.89 50.8 0)
+		(uuid "6f86cea0-cfd0-4573-9e36-a1dacdba126c")
+		(property "Reference" "D7"
+			(at 101.2825 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
-			(at 135.89 53.34 0)
+		(property "Value" "LED"
+			(at 101.2825 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4261,7 +5079,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 57.15 0)
+			(at 102.87 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4270,7 +5088,75 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 57.15 0)
+			(at 102.87 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 102.87 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34541424-9364-498f-aba2-da6d14ae0c55")
+		)
+		(pin "2"
+			(uuid "1c43c2a2-5b8e-4b69-a20e-6eefebdc26be")
+		)
+		(instances
+			(project "otmb_board"
+				(path "/f96461b7-7891-4a70-9cc7-4879d3904968"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 124.46 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "702c0092-9604-4a0a-accd-10af1a06199e")
+		(property "Reference" "SW1"
+			(at 124.46 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 124.46 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4279,7 +5165,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 135.89 57.15 0)
+			(at 124.46 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4497,6 +5383,82 @@
 			(project ""
 				(path "/f96461b7-7891-4a70-9cc7-4879d3904968"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLZ44N")
+		(at 123.19 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8023058d-e1e6-441e-ae3b-62ddeae1c7a5")
+		(property "Reference" "Q2"
+			(at 129.54 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLZ44N"
+			(at 129.54 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 128.27 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+			(at 128.27 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+			(at 123.19 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "49a2defd-16df-498b-bd93-e06d75f7f84d")
+		)
+		(pin "1"
+			(uuid "7e7d70c3-b8f2-4665-8709-aec75ff0510f")
+		)
+		(pin "3"
+			(uuid "43d5f692-22d4-4ab9-9128-db888f29dea6")
+		)
+		(instances
+			(project "otmb_board"
+				(path "/f96461b7-7891-4a70-9cc7-4879d3904968"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -4922,6 +5884,226 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
+		(at 154.94 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3957700-0680-4b6e-86a1-a267a98257c5")
+		(property "Reference" "D6"
+			(at 153.3525 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 153.3525 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 154.94 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6605ee83-fbd2-45ec-8b57-32b79365227a")
+		)
+		(pin "2"
+			(uuid "ec4c0e2e-1509-479d-9574-3499ebd52fe7")
+		)
+		(instances
+			(project "otmb_board"
+				(path "/f96461b7-7891-4a70-9cc7-4879d3904968"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLZ44N")
+		(at 118.11 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5649b7d-fe6d-4b8b-ac94-08d16bd919f7")
+		(property "Reference" "Q6"
+			(at 124.46 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLZ44N"
+			(at 124.46 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 123.19 191.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+			(at 123.19 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+			(at 118.11 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2ca044ad-dd91-448b-a414-91ae55c6a2bb")
+		)
+		(pin "1"
+			(uuid "f795b4f5-9d92-4a68-89e6-c710632c7782")
+		)
+		(pin "3"
+			(uuid "6654b21b-49f0-4bb4-b869-7c27cee25951")
+		)
+		(instances
+			(project "otmb_board"
+				(path "/f96461b7-7891-4a70-9cc7-4879d3904968"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLZ44N")
+		(at 121.92 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be5a23dc-e0c6-4d97-bc8a-ab58749d3cc9")
+		(property "Reference" "Q5"
+			(at 128.27 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLZ44N"
+			(at 128.27 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 127 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+			(at 127 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+			(at 121.92 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c4d81187-a962-49a2-ad04-d2cdcc75e050")
+		)
+		(pin "1"
+			(uuid "c03df8c7-3ebe-4c58-a549-53633463845f")
+		)
+		(pin "3"
+			(uuid "4b80971e-9c71-43e4-938f-ac48a2d36d6c")
+		)
+		(instances
+			(project "otmb_board"
+				(path "/f96461b7-7891-4a70-9cc7-4879d3904968"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
 		(at 106.68 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5058,7 +6240,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 106.68 138.43 0)
+		(at 106.68 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5067,7 +6249,7 @@
 		(fields_autoplaced yes)
 		(uuid "c91d9773-158a-425f-a745-55c01cb6eecb")
 		(property "Reference" "D5"
-			(at 105.0925 132.08 0)
+			(at 105.0925 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5075,7 +6257,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 105.0925 134.62 0)
+			(at 105.0925 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5083,7 +6265,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 138.43 0)
+			(at 106.68 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5092,7 +6274,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 138.43 0)
+			(at 106.68 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5101,7 +6283,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 106.68 138.43 0)
+			(at 106.68 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5677,6 +6859,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 165.1 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e690de68-4c7f-4c2e-adfe-9398dca08c9d")
+		(property "Reference" "SW2"
+			(at 165.862 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 166.116 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 165.1 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "701ab0f0-313d-4826-8c49-96bbaa524a89")
+		)
+		(pin "2"
+			(uuid "259679bd-d9e9-4278-82d8-4d6ad2670796")
+		)
+		(instances
+			(project "otmb_board"
+				(path "/f96461b7-7891-4a70-9cc7-4879d3904968"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 148.59 54.61 0)
 		(unit 1)
@@ -5803,6 +7052,82 @@
 			(project ""
 				(path "/f96461b7-7891-4a70-9cc7-4879d3904968"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLZ44N")
+		(at 115.57 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8d7e2c2-07a1-452b-ae67-dfa531669f39")
+		(property "Reference" "Q4"
+			(at 121.92 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRLZ44N"
+			(at 121.92 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 120.65 170.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irlz44n.pdf"
+			(at 120.65 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "47A Id, 55V Vds, 22mOhm Rds Single N-Channel HEXFET Power MOSFET, TO-220AB"
+			(at 115.57 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "972f602d-4eb8-4603-829a-d64da8f84769")
+		)
+		(pin "1"
+			(uuid "4625af87-b725-44bb-b001-feafeb40ac0a")
+		)
+		(pin "3"
+			(uuid "44bdad33-7fe8-43ab-840d-4439aff4db05")
+		)
+		(instances
+			(project "otmb_board"
+				(path "/f96461b7-7891-4a70-9cc7-4879d3904968"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
